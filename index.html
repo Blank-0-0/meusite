@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha página</title>
+    <script src="javascript/script.js" defer></script>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="nav"><a href="#1"><h1>Sobre mim</h1></a></div>
+                <hr>
+                <div class="nav"><a href="#2"><h1>Formação</h1></a></div>
+                <hr>
+                <div class="nav"><a href="#3"><h1>Portfólio</h1></a></div>
+                <hr>
+                <div class="nav"><a href="#4"><h1>Contato</h1></a></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="text" id="1">
+                <p>Olá, sou Pedro Miguel, tenho 23 anos e resido em São José dos Campos - SP.</p>
+                <p>Como hobbies, eu posso citar jogar e praticar esportes.</p>
+            </div>
+            <div class="text" id="2">
+                <p>Atualmente, eu estou cursando análise e desenvolvimento de sistemas pela Uninter.</p>
+                <p>Eu já realizei o curso CS50X, a versão online do curso de introdução à ciência da computação.</p>
+                <p>Eu falo inglês e o nivel básico em Neerlandês.</p>
+            </div>
+            <div class="text" id="3">
+                <img style="width: 80%" src="imgs/emobras.png" alt="Emote em obras.">
+                <p>Em obras</p>
+                <p style="font-size: 30%;">Não possuo nenhum trabalho :(</p>
+            </div>
+            <div class="text" style="width: inherit;" id="4">
+                <p style="font-size: 200%;">Contato</p>
+                <form>
+                    <input type="text" placeholder="Nome" required id="name">
+                    <br>
+                    <input type="email" placeholder="Endereço de email" required id="email">
+                    <br>
+                    <textarea placeholder="Mensagem" rows="10" cols="25" required id="text"></textarea>
+                    <br>
+                    <button type="button" id="button" style="background-color: lightgray; box-shadow: 0px 0px 3px 5px gray;">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        © Todos os direitos reservados.
+    </footer>
+</body>
+</html>
