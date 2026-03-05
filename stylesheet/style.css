@@ -1,0 +1,56 @@
+body{
+    background-color: grey;
+    color: whitesmoke;
+    margin:0;
+}
+.container{
+    font-size: 74%;
+    background-color: black;
+    font-family: monospace;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 1000;
+}
+.nav{
+    margin:auto;
+}
+.nav:hover{
+    text-decoration: underline;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% 5%;
+    font-size:200%;
+    font-family: 'Trebuchet MS';
+}
+.text{
+    border: 5px solid darkgray;
+    border-radius: 30px;
+    padding: 5%;
+    margin: 3% 3%;
+    width: fit-content;
+    background-color: black;
+    text-align: center;
+}
+input, textarea,button{
+    margin: 2% auto;
+    border: 5px solid darkgray;
+    border-radius: 30px;
+    padding: 3%;
+    font-size: 60%;
+}
+footer{
+    font-size: 120%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
